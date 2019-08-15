@@ -149,7 +149,7 @@ function App() {
           color: 'hsl(0,0%,85%)',
           fontSize: '3rem',
           textAlign: 'center',
-          margin: 0,
+          marginTop: '1em',
           padding: 0,
           lineHeight: 1,
         }}
@@ -176,7 +176,7 @@ function App() {
       <input
         type="range"
         min="2"
-        max="10"
+        max="5"
         onChange={handleModifier}
         value={modifiers.pathCount}
         name="pathCount"
